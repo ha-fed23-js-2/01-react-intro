@@ -10,9 +10,14 @@ function App() {
 
 			<p> Mycket spännande innehåll </p>
 
-			<button className="fancy"> Jag är festlig </button>
+			<FancyButton />
 		</main>
 	)
 }
+
+// function FancyButton hade också gått
+const FancyButton = () => (
+	<button className="fancy"> Jag är festlig </button>
+)
 
 export default App
