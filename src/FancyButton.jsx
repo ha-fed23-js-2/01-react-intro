@@ -1,3 +1,5 @@
+import './FancyButton.css'
+
 // function FancyButton hade också gått
 const FancyButton = () => (
 	<button className="fancy"> Jag är festlig </button>
