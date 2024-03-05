@@ -1,8 +1,8 @@
 import './FancyButton.css'
 
 // function FancyButton hade också gått
-const FancyButton = () => (
-	<button className="fancy"> Jag är festlig </button>
+const FancyButton = (props) => (
+	<button className="fancy"> {props.text} </button>
 )
 function fun1() {}
 

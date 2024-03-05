@@ -11,9 +11,9 @@ function App() {
 
 			<p> Mycket spännande innehåll </p>
 
-			<FancyButton />
-			<FancyButton />
-			<FancyButton />
+			<FancyButton text={'Spänning'} />
+			<FancyButton text={'Melodrama'} />
+			<FancyButton text={'Komedi'} />
 		</main>
 	)
 }
