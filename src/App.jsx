@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import FancyButton from './FancyButton.jsx'
 import './App.css'
 
 function App() {
@@ -11,13 +12,12 @@ function App() {
 			<p> Mycket spännande innehåll </p>
 
 			<FancyButton />
+			<FancyButton />
+			<FancyButton />
 		</main>
 	)
 }
 
-// function FancyButton hade också gått
-const FancyButton = () => (
-	<button className="fancy"> Jag är festlig </button>
-)
+
 
 export default App
